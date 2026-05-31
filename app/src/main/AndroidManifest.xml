@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mini_game">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -40,6 +42,9 @@
             android:exported="true" />
         <activity
             android:name=".QuizActivityEnhanced"
+            android:exported="true" />
+        <activity
+            android:name=".WeatherActivity"
             android:exported="true" />
     </application>
 
