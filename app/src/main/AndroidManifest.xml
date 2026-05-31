@@ -35,6 +35,12 @@
         <activity
             android:name=".SpaceInvadersActivity"
             android:exported="true" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuizActivityEnhanced"
+            android:exported="true" />
     </application>
 
 </manifest>
