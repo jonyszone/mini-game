@@ -32,6 +32,9 @@
         <activity
             android:name=".PongActivity"
             android:exported="true" />
+        <activity
+            android:name=".SpaceInvadersActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
