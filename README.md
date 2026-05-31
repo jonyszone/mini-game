@@ -17,6 +17,7 @@ A comprehensive Android application combining a professional A-level Grade Calcu
 - Touch-based paddle controls
 - Real-time ball physics
 - Score tracking
+- Level/difficulty progression system (Enhanced)
 
 #### 2. Space Invaders
 - Single-player action game
@@ -24,12 +25,14 @@ A comprehensive Android application combining a professional A-level Grade Calcu
 - Bullet collision detection
 - Win/lose conditions
 - Score system (100 pts per enemy)
+- Power-ups, shield mechanic, level progression (Enhanced)
 
 #### 3. Quiz Game (API-Powered)
 - **OpenTriviaDB API** - 10 random trivia questions
 - Multiple choice (4 options)
 - Visual feedback (green/red)
 - Score tracking
+- Category tracking & persistent high scores (Enhanced)
 - Fallback to local questions if API unavailable
 
 ### 🌤️ Tools
@@ -73,23 +76,27 @@ A comprehensive Android application combining a professional A-level Grade Calcu
 
 ```
 app/src/main/java/com/example/mini_game/
-├── MainActivity.java              (75 lines)
-├── AddSubjectActivity.java        (83 lines)
-├── SubjectsListActivity.java      (95 lines)
-├── ResultsActivity.java           (115 lines)
-├── SettingsActivity.java          (110 lines)
-├── Subject.java                   (32 lines)
-├── GradeCalculationEngine.java    (74 lines)
-├── GradeDataManager.java          (68 lines)
-├── PongGameView.java              (116 lines)
-├── PongActivity.java              (12 lines)
-├── SpaceInvadersView.java         (147 lines)
-├── SpaceInvadersActivity.java     (12 lines)
-├── QuizActivity.java              (183 lines) - API-Powered
-└── WeatherActivity.java           (123 lines) - API-Powered
+├── MainActivity.java              (110 lines)
+├── AddSubjectActivity.java        (82 lines)
+├── SubjectsListActivity.java      (97 lines)
+├── ResultsActivity.java           (109 lines)
+├── SettingsActivity.java          (109 lines)
+├── GradeCalculatorActivity.java   (92 lines)
+├── Subject.java                   (31 lines)
+├── GradeCalculationEngine.java    (73 lines)
+├── GradeDataManager.java          (67 lines)
+├── PongActivity.java              (11 lines)
+├── PongGameView.java              (115 lines)
+├── PongGameViewEnhanced.java      (146 lines)
+├── SpaceInvadersActivity.java     (11 lines)
+├── SpaceInvadersView.java         (146 lines)
+├── SpaceInvadersViewEnhanced.java (202 lines)
+├── QuizActivity.java              (182 lines) - API-Powered
+├── QuizActivityEnhanced.java      (203 lines) - API-Powered
+└── WeatherActivity.java           (122 lines) - API-Powered
 ```
 
-**Total: 14 Java files, 1,045 lines of production code**
+**Total: 18 Java files, 1,908 lines of production code**
 
 ## How to Use
 
@@ -156,15 +163,16 @@ app/src/main/java/com/example/mini_game/
 
 | Component | Type | Lines | Status |
 |-----------|------|-------|--------|
-| Grade Calculator | Production | 577 | ✓ Complete |
-| Pong Game | Game | 128 | ✓ Complete |
-| Space Invaders | Game | 159 | ✓ Complete |
-| Quiz Game | Game + API | 183 | ✓ Complete |
-| Weather Tool | Tool + API | 123 | ✓ Complete |
-| **Total** | **Mixed** | **1,045** | **✓ Ready** |
+| Grade Calculator | Production | 660 | ✓ Complete |
+| Pong Game | Game | 272 | ✓ Complete |
+| Space Invaders | Game | 359 | ✓ Complete |
+| Quiz Game | Game + API | 385 | ✓ Complete |
+| Weather Tool | Tool + API | 122 | ✓ Complete |
+| Main Hub | UI | 110 | ✓ Complete |
+| **Total** | **Mixed** | **1,908** | **✓ Ready** |
 
 ---
 
-**Version**: 2.0 (API-Enhanced)  
+**Version**: 2.1 (Enhanced Edition)  
 **Status**: Production Ready  
 **Last Updated**: 2026-05-31
